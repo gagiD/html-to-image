@@ -44,14 +44,6 @@
       "eslint --fix"
     ]
   },
-  "release": {
-    "extends": "@bubkoo/semantic-release-config"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "bubkooo",
-    "email": "bubkoo.wy@gmail.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gagid/html-to-image.git"
