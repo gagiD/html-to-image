@@ -203,7 +203,7 @@ async function parseWebFontRules<T extends HTMLElement>(
 }
 
 function normalizeFontFamily(font: string) {
-  return font.trim().replace(/["']/g, '')
+  return font?.trim().replace(/["']/g, '')
 }
 
 function getUsedFonts(node: HTMLElement) {
